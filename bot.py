@@ -1,4 +1,6 @@
 import os
+from ffmpeg_setup import install_ffmpeg
+install_ffmpeg()
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from dotenv import load_dotenv
