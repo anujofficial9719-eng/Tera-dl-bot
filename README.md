@@ -75,8 +75,8 @@ FSUB_ID=-100xxxxxxxx
 
 1️⃣ Clone Repository
 
-git clone https://github.com/anujofficial9719-eng/terabox-bot
-cd terabox-bot
+git clone [https://github.com/anujofficial9719-eng/terabox-bot](https://github.com/anujofficial9719-eng/Tera-dl-bot/tree/main)
+cd Tera-dl-bot
 
 2️⃣ Install Dependencies
 
