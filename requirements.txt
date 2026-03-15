@@ -1,7 +1,8 @@
 pyrogram
 tgcrypto
-requests
 aiohttp
-pymongo
+requests
+beautifulsoup4
+motor
+dnspython
 flask
-python-dotenv
