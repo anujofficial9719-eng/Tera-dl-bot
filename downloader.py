@@ -1,17 +1,45 @@
-import requests
-import os
+import yt_dlp
+import re
 
-async def download_video(link, msg):
+def normalize_link(url):
 
-    file = "video.mp4"
+    mirrors = [
+        "1024terabox.com",
+        "teraboxapp.com",
+        "terasharelink.com",
+        "terashare.net",
+        "teraboxlink.com"
+    ]
 
-    r = requests.get(link, stream=True)
+    for m in mirrors:
+        if m in url:
+            url = url.replace(m, "terabox.com")
 
-    with open(file, "wb") as f:
+    return url
 
-        for chunk in r.iter_content(1024):
 
-            if chunk:
-                f.write(chunk)
+async def download_video(url, msg):
 
-    return file
+    url = normalize_link(url)
+
+    await msg.edit("Extracting video link...")
+
+    ydl_opts = {
+        "format": "bestvideo+bestaudio/best",
+        "merge_output_format": "mp4",
+        "outtmpl": "video.%(ext)s",
+        "quiet": True
+    }
+
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+
+        info = ydl.extract_info(url, download=True)
+
+        filename = ydl.prepare_filename(info)
+
+        if not filename.endswith(".mp4"):
+            filename = filename.rsplit(".",1)[0] + ".mp4"
+
+    await msg.edit("Download complete")
+
+    return filename
