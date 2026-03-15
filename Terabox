@@ -1,13 +1,7 @@
-terabox-pro-bot
-│
-├── bot.py
-├── config.py
-├── downloader.py
-├── progress.py
-├── web.py
-├── requirements.txt
-├── runtime.txt
-├── config.env
-│
-└── database
-    └── users.py
+/bot.py              <- Main bot
+/downloader.py       <- Video download + merge + progress
+/ffmpeg_setup.py     <- FFmpeg auto install
+/keep_alive.py       <- Replit keep alive server
+/config.env          <- API keys + ADMINS
+/database/users.py   <- User DB functions
+/progress.py         <- Optional, advanced progress helpers
