@@ -23,11 +23,14 @@ This bot automatically downloads Terabox files and uploads them to Telegram with
 
 🛠 Tech Stack
 
-- Python 3.10+
-- Pyrogram
-- MongoDB
-- Flask (Keep Alive Server)
-- Requests / Aiohttp
+<p align="center">"Python" (https://img.shields.io/badge/Python-3.11-blue)
+"Pyrogram" (https://img.shields.io/badge/Library-Pyrogram-green)
+"MongoDB" (https://img.shields.io/badge/Database-MongoDB-brightgreen)
+"License" (https://img.shields.io/badge/License-MIT-yellow)
+"Maintained" (https://img.shields.io/badge/Maintained-Yes-success)
+
+</p>A powerful Telegram Bot that allows users to download and stream TeraBox videos directly inside Telegram.
+
 
 ---
 
