@@ -1,0 +1,13 @@
+terabox-pro-bot
+│
+├── bot.py
+├── config.py
+├── downloader.py
+├── progress.py
+├── web.py
+├── requirements.txt
+├── runtime.txt
+├── config.env
+│
+└── database
+    └── users.py
