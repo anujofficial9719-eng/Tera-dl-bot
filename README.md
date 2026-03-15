@@ -1,27 +1,4 @@
-🚀 Terabox Downloader Telegram Bot
-
-A powerful Telegram Bot built with Python & Pyrogram that allows users to download and stream Terabox videos directly on Telegram.
-
-This bot automatically downloads Terabox files and uploads them to Telegram with streaming support and progress tracking.
-
----
-
-✨ Features
-
-- ⚡ Fast Terabox Downloader
-- 🎬 2GB Video Upload Support
-- 📊 Real-Time Progress Bar
-- 👥 MongoDB User Database
-- 📢 Broadcast System for Admins
-- 📈 User Statistics Command
-- 🔒 Admin Control
-- 🌐 24/7 Hosting Support
-- 📺 Streaming Enabled Videos
-- 🧩 Modular Code Structure
-
----
-
-🛠 Tech Stack
+🚀 TeraBox Downloader Telegram Bot
 
 <p align="center">"Python" (https://img.shields.io/badge/Python-3.11-blue)
 "Pyrogram" (https://img.shields.io/badge/Library-Pyrogram-green)
@@ -29,8 +6,35 @@ This bot automatically downloads Terabox files and uploads them to Telegram with
 "License" (https://img.shields.io/badge/License-MIT-yellow)
 "Maintained" (https://img.shields.io/badge/Maintained-Yes-success)
 
-</p>A powerful Telegram Bot that allows users to download and stream TeraBox videos directly inside Telegram.
+</p>A powerful Telegram Bot built using Python and Pyrogram that allows users to download and stream TeraBox videos directly on Telegram.
 
+The bot automatically downloads files from TeraBox links and uploads them back to Telegram with streaming support, progress tracking, and high-speed uploads.
+
+---
+
+✨ Features
+
+- ⚡ Fast TeraBox Downloader
+- 🎬 2GB Video Upload Support
+- 📊 Real-Time Progress Bar
+- 👥 MongoDB User Database
+- 📢 Broadcast System for Admins
+- 📈 User Statistics Command
+- 🔒 Admin Control System
+- 🌐 24/7 Hosting Support
+- 📺 Streaming Enabled Videos
+- 🧩 Clean Modular Code Structure
+
+---
+
+🛠 Tech Stack
+
+Technology| Purpose
+Python| Core Programming Language
+Pyrogram| Telegram Bot Framework
+MongoDB| User Database
+Flask| Keep Alive Server
+Requests / Aiohttp| File Downloading
 
 ---
 
@@ -71,16 +75,16 @@ FSUB_ID=-100xxxxxxxx
 
 📦 Installation
 
-Clone the repository
+1️⃣ Clone Repository
 
 git clone https://github.com/anujofficial9719-eng/terabox-bot
 cd terabox-bot
 
-Install requirements
+2️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-Run the bot
+3️⃣ Run The Bot
 
 python bot.py
 
@@ -90,12 +94,12 @@ python bot.py
 
 You can deploy this bot on:
 
-- Render
-- Koyeb
-- Railway
-- VPS
+- 🚀 Render
+- 🚀 Koyeb
+- 🚀 Railway
+- 🚀 VPS
 
-Recommended Python version:
+Recommended Python Version:
 
 Python 3.11
 
@@ -111,17 +115,35 @@ Command| Description
 
 📊 Bot Workflow
 
-1️⃣ User sends Terabox link
-2️⃣ Bot downloads file
+1️⃣ User sends a TeraBox link
+2️⃣ Bot downloads the file
 3️⃣ Bot uploads video to Telegram
 4️⃣ User receives streamable video
 
 ---
 
+⚡ Performance
+
+- Fast download system
+- Optimized upload handling
+- Streaming supported videos
+- Efficient memory usage
+
+---
+
+🔒 Security
+
+- Admin-only commands
+- MongoDB user storage
+- Exception handling system
+
+---
+
 ⚠️ Disclaimer
 
-This project is created for educational purposes only.
-The developer is not responsible for misuse of the bot.
+This project is intended for educational purposes only.
+
+The developer is not responsible for misuse of this software.
 
 ---
 
@@ -130,7 +152,7 @@ The developer is not responsible for misuse of the bot.
 If you like this project:
 
 ⭐ Star the repository
-🍴 Fork it
+🍴 Fork the project
 📢 Share with others
 
 ---
