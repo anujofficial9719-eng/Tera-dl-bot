@@ -1,12 +1,10 @@
 🚀 TeraBox Downloader Telegram Bot
 
-<p align="center">"Python" (https://img.shields.io/badge/Python-3.11-blue)
-"Pyrogram" (https://img.shields.io/badge/Library-Pyrogram-green)
-"MongoDB" (https://img.shields.io/badge/Database-MongoDB-brightgreen)
-"License" (https://img.shields.io/badge/License-MIT-yellow)
-"Maintained" (https://img.shields.io/badge/Maintained-Yes-success)
-
-</p>A powerful Telegram Bot built using Python and Pyrogram that allows users to download and stream TeraBox videos directly on Telegram.
+<p align="center"><img src="https://img.shields.io/badge/Python-3.11-blue">
+<img src="https://img.shields.io/badge/Library-Pyrogram-green">
+<img src="https://img.shields.io/badge/Database-MongoDB-brightgreen">
+<img src="https://img.shields.io/badge/License-MIT-yellow">
+<img src="https://img.shields.io/badge/Maintained-Yes-success"></p>A powerful Telegram Bot built using Python and Pyrogram that allows users to download and stream TeraBox videos directly on Telegram.
 
 The bot automatically downloads files from TeraBox links and uploads them back to Telegram with streaming support, progress tracking, and high-speed uploads.
 
